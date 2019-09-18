@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1419D821BC4D9900E700A9 /* Notification+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1419D621BC4D9900E700A9 /* Notification+CoreDataClass.swift */; };
+		DA1419D921BC4D9900E700A9 /* Notification+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1419D721BC4D9900E700A9 /* Notification+CoreDataProperties.swift */; };
+		DA1419DF21BD452B00E700A9 /* CustomSegementedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1419DE21BD452B00E700A9 /* CustomSegementedControl.swift */; };
 		DA99B00C21B294150084195E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99B00B21B294150084195E /* AppDelegate.swift */; };
-		DA99B00E21B294150084195E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99B00D21B294150084195E /* ViewController.swift */; };
+		DA99B00E21B294150084195E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99B00D21B294150084195E /* HomeVC.swift */; };
 		DA99B01121B294150084195E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA99B00F21B294150084195E /* Main.storyboard */; };
 		DA99B01421B294150084195E /* Noti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA99B01221B294150084195E /* Noti.xcdatamodeld */; };
 		DA99B01621B294160084195E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA99B01521B294160084195E /* Assets.xcassets */; };
 		DA99B01921B294160084195E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA99B01721B294160084195E /* LaunchScreen.storyboard */; };
+		DA99B02421B29D0F0084195E /* NewNotifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99B02321B29D0F0084195E /* NewNotifVC.swift */; };
+		DA99B02621B2AA070084195E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99B02521B2AA070084195E /* Extensions.swift */; };
+		DAACBA9321BE752500D48DAF /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACBA9221BE752500D48DAF /* SettingsVC.swift */; };
+		DAB27DF321B60625002A6EAE /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB27DF121B60625002A6EAE /* NotificationCell.swift */; };
+		DAB27DF421B60625002A6EAE /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB27DF221B60625002A6EAE /* NotificationCell.xib */; };
+		DAEBC63A21CFBAFC00533BD1 /* LocalPushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBC63921CFBAFC00533BD1 /* LocalPushManager.swift */; };
+		DAFB5FCD21B3FE5300244F21 /* CreateNotifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB5FCC21B3FE5300244F21 /* CreateNotifVC.swift */; };
+		DAFB5FCF21B4004600244F21 /* EditNotifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB5FCE21B4004600244F21 /* EditNotifVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA1419D621BC4D9900E700A9 /* Notification+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DA1419D721BC4D9900E700A9 /* Notification+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DA1419DE21BD452B00E700A9 /* CustomSegementedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegementedControl.swift; sourceTree = "<group>"; };
 		DA99B00821B294150084195E /* Noti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA99B00B21B294150084195E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA99B00D21B294150084195E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA99B00D21B294150084195E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DA99B01021B294150084195E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA99B01321B294150084195E /* Noti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noti.xcdatamodel; sourceTree = "<group>"; };
 		DA99B01521B294160084195E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA99B01821B294160084195E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA99B01A21B294160084195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA99B02321B29D0F0084195E /* NewNotifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotifVC.swift; sourceTree = "<group>"; };
+		DA99B02521B2AA070084195E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DAACBA9221BE752500D48DAF /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		DAB27DF121B60625002A6EAE /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		DAB27DF221B60625002A6EAE /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		DAEBC63921CFBAFC00533BD1 /* LocalPushManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushManager.swift; sourceTree = "<group>"; };
+		DAFB5FCC21B3FE5300244F21 /* CreateNotifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotifVC.swift; sourceTree = "<group>"; };
+		DAFB5FCE21B4004600244F21 /* EditNotifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNotifVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,50 @@
 		DA99B00A21B294150084195E /* Noti */ = {
 			isa = PBXGroup;
 			children = (
-				DA99B00B21B294150084195E /* AppDelegate.swift */,
-				DA99B00D21B294150084195E /* ViewController.swift */,
-				DA99B00F21B294150084195E /* Main.storyboard */,
+				DA99B02221B29C6D0084195E /* Model */,
+				DA99B02121B29C5F0084195E /* View */,
+				DA99B02021B29C590084195E /* Controller */,
 				DA99B01521B294160084195E /* Assets.xcassets */,
-				DA99B01721B294160084195E /* LaunchScreen.storyboard */,
+				DA99B02521B2AA070084195E /* Extensions.swift */,
 				DA99B01A21B294160084195E /* Info.plist */,
-				DA99B01221B294150084195E /* Noti.xcdatamodeld */,
 			);
 			path = Noti;
+			sourceTree = "<group>";
+		};
+		DA99B02021B29C590084195E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA99B00D21B294150084195E /* HomeVC.swift */,
+				DA99B02321B29D0F0084195E /* NewNotifVC.swift */,
+				DAFB5FCC21B3FE5300244F21 /* CreateNotifVC.swift */,
+				DAFB5FCE21B4004600244F21 /* EditNotifVC.swift */,
+				DAACBA9221BE752500D48DAF /* SettingsVC.swift */,
+				DAEBC63921CFBAFC00533BD1 /* LocalPushManager.swift */,
+				DA99B00B21B294150084195E /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA99B02121B29C5F0084195E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAB27DF121B60625002A6EAE /* NotificationCell.swift */,
+				DA1419DE21BD452B00E700A9 /* CustomSegementedControl.swift */,
+				DA99B01721B294160084195E /* LaunchScreen.storyboard */,
+				DA99B00F21B294150084195E /* Main.storyboard */,
+				DAB27DF221B60625002A6EAE /* NotificationCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA99B02221B29C6D0084195E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA1419D621BC4D9900E700A9 /* Notification+CoreDataClass.swift */,
+				DA1419D721BC4D9900E700A9 /* Notification+CoreDataProperties.swift */,
+				DA99B01221B294150084195E /* Noti.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +156,7 @@
 				TargetAttributes = {
 					DA99B00721B294150084195E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -125,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB27DF421B60625002A6EAE /* NotificationCell.xib in Resources */,
 				DA99B01921B294160084195E /* LaunchScreen.storyboard in Resources */,
 				DA99B01621B294160084195E /* Assets.xcassets in Resources */,
 				DA99B01121B294150084195E /* Main.storyboard in Resources */,
@@ -138,8 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAACBA9321BE752500D48DAF /* SettingsVC.swift in Sources */,
+				DA99B02621B2AA070084195E /* Extensions.swift in Sources */,
+				DA1419DF21BD452B00E700A9 /* CustomSegementedControl.swift in Sources */,
+				DAB27DF321B60625002A6EAE /* NotificationCell.swift in Sources */,
 				DA99B01421B294150084195E /* Noti.xcdatamodeld in Sources */,
-				DA99B00E21B294150084195E /* ViewController.swift in Sources */,
+				DAEBC63A21CFBAFC00533BD1 /* LocalPushManager.swift in Sources */,
+				DAFB5FCF21B4004600244F21 /* EditNotifVC.swift in Sources */,
+				DAFB5FCD21B3FE5300244F21 /* CreateNotifVC.swift in Sources */,
+				DA1419D821BC4D9900E700A9 /* Notification+CoreDataClass.swift in Sources */,
+				DA99B00E21B294150084195E /* HomeVC.swift in Sources */,
+				DA1419D921BC4D9900E700A9 /* Notification+CoreDataProperties.swift in Sources */,
+				DA99B02421B29D0F0084195E /* NewNotifVC.swift in Sources */,
 				DA99B00C21B294150084195E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,8 +364,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SetiVega.Noti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,8 +382,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SetiVega.Noti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
