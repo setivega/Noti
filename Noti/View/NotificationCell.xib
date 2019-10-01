@@ -51,7 +51,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="350" id="Gm2-oG-VHu"/>
                             <constraint firstAttribute="height" constant="97" id="sg9-CP-Fsw"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
@@ -64,6 +63,8 @@
                 <color key="backgroundColor" red="0.98431372549999996" green="0.39607843139999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                 <constraints>
                     <constraint firstItem="NNd-AB-u6K" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="28b-p5-UCe"/>
+                    <constraint firstAttribute="trailing" secondItem="NNd-AB-u6K" secondAttribute="trailing" constant="6" id="5ql-u1-BUr"/>
+                    <constraint firstItem="NNd-AB-u6K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="kTR-co-af6"/>
                     <constraint firstItem="NNd-AB-u6K" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="s7J-6Y-Kaf"/>
                 </constraints>
             </tableViewCellContentView>

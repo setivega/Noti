@@ -103,13 +103,9 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
         let edit = UIAlertAction(title: "Edit", style: .default) { (action) in
-            if let title = cell.notificationTitle.text, let message = cell.notificationMessage.text{
                 let editVC = EditNotifVC()
-                editVC.notiTitle = title
-                editVC.notiMessage = message
-                print(title)
-                print(editVC.notiTitle)
-            }
+                editVC.notiIndex = cellNum
+            print("HomeVC: \(editVC.notiIndex)")
             self.performSegue(withIdentifier: "editNotif", sender: sender)
         }
         
